@@ -51,7 +51,7 @@ int main(){
     
     densidade = (float)(Populacao / Area);
     capita = (float)(Pib / Populacao); 
-    superPoder = (float)(Populacao + Area + Pib + PontosTuristicos + capita) + (-1 / densidade);//Término informações Carta 1
+    superPoder = (float)(Populacao + Area + Pib + PontosTuristicos + capita) + (-1 * densidade);//Término informações Carta 1
 
     printf("Carta 2: \n");
     
@@ -80,7 +80,7 @@ int main(){
     
     densidade = (float)(Populacao1 / Area1);
     capita1 = (float)(Pib1 / Populacao1);
-    superPoder1 = (float)(Populacao1 + Area1 + Pib1 + PontosTuristicos1 + capita1) + (-1 / densidade1);// Término informações Carta 2
+    superPoder1 = (float)(Populacao1 + Area1 + Pib1 + PontosTuristicos1 + capita1) + (-1 * densidade1);// Término informações Carta 2
 
     printf(" *** Dados da Carta 1: *** \n");
     printf("Código da Carta: %c%s\n", Estado, Codigo);
