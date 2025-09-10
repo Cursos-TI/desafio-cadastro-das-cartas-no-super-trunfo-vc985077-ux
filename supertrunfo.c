@@ -134,7 +134,7 @@ int main(){
      } else if (Populacao > Populacao1) { 
         printf("Carta 1 (%s, %s): %lu - venceu!\n", Cidade, pais, Populacao);
         printf("Carta 2 (%s, %s): %lu\n", Cidade1, pais1, Populacao1);
-     } else (Populacao < Populacao1) {
+     } else {
         printf("Carta 2 (%s, %s): %lu - venceu!\n", Cidade1, pais1, Populacao1);
         printf("Carta 1 (%s, %s): %lu\n", Cidade, pais, Populacao);
      }
@@ -149,7 +149,7 @@ int main(){
      } else if (Area > Area1) { 
         printf("Carta 1 (%s, %s): %.2f - venceu!\n", Cidade, pais, Area);
         printf("Carta 2 (%s, %s): %.2f\n", Cidade1, pais1, Area1);
-     } else (Area < Area1) {
+     } else {
         printf("Carta 2 (%s, %s): %.2f - venceu!\n", Cidade1, pais1, Area1);
         printf("Carta 1 (%s, %s): %.2f\n", Cidade, pais, Area);
      }
@@ -163,7 +163,7 @@ int main(){
      } else if (Pib > Pib1) { 
         printf("Carta 1 (%s, %s): %.3f - venceu!\n", Cidade, pais, Pib);
         printf("Carta 2 (%s, %s): %.3f\n", Cidade1, pais1, Pib1);
-     } else (Pib < Pib1) {
+     } else {
         printf("Carta 2 (%s, %s): %.3f - venceu!\n", Cidade1, pais1, Pib1);
         printf("Carta 1 (%s, %s): %.3f\n", Cidade, pais, Pib);
      }
@@ -177,7 +177,7 @@ int main(){
      } else if (PontosTuristicos > PontosTuristicos1) { 
         printf("Carta 1 (%s, %s): %d - venceu!\n", Cidade, pais, PontosTuristicos);
         printf("Carta 2 (%s, %s): %d\n", Cidade1, pais1, PontosTuristicos1);
-     } else (PontosTuristicos < PontosTuristicos1) {
+     } else {
         printf("Carta 2 (%s, %s): %d - venceu!\n", Cidade1, pais1, PontosTuristicos1);
         printf("Carta 1 (%s, %s): %d\n", Cidade, pais, PontosTuristicos);
      }
@@ -191,7 +191,7 @@ int main(){
      } else if (densidade1 < densidade) { 
         printf("Carta 2 (%s, %s): %.3f - venceu!\n", Cidade1, pais1, densidade1);
         printf("Carta 1 (%s, %s): %.3f\n", Cidade, pais, densidade);
-     } else (densidade1 > densidade) {
+     } else {
         printf("Carta 1 (%s, %s): %.3f - venceu!\n", Cidade, pais, densidade);
         printf("Carta 2 (%s, %s): %.3f\n", Cidade1, pais1, densidade1);
      }
