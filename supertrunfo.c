@@ -378,7 +378,7 @@ int main(){
       printf("\nPontos Turísticos de %s é: %d\n", Cidade, PontosTuristicos);
       printf("Pontos Turísticos de %s é: %d\n", Cidade1, PontosTuristicos1);
 
-      printf("\nÁrea de %s é: %.3f\n", cidade, Area);
+      printf("\nÁrea de %s é: %.3f\n", Cidade, Area);
       printf("Área de %s é: %.3f\n", Cidade1, Area1);
 
       printf("\nA soma dos atributos usados para Carta 1 é: %.3f\n", resultado3);
